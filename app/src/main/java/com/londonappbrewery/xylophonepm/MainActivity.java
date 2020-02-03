@@ -54,7 +54,7 @@ public class MainActivity extends AppCompatActivity {
         mSoundPool.play(mDSoundId,LEFT_VOLUME,RIGHT_VOLUME,PRIORITY,NO_LOOP,NORMAL_PLAY_RATE);
     }
     public  void playE(View v){
-        mSoundPool.play(mESoundId,1.0f,1.0f,0,0,1.0f);
+        mSoundPool.play(mESoundId,LEFT_VOLUME,RIGHT_VOLUME,PRIORITY,NO_LOOP,NORMAL_PLAY_RATE);
     }
     public  void playF(View v){
         mSoundPool.play(mFSoundId,1.0f,1.0f,0,0,1.0f);
